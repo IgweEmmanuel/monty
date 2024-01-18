@@ -17,7 +17,7 @@ int main(void)
 	};
 	size_t num_instructions = sizeof(instructions) / sizeof(instructions[0]);
 
-	execution("byteodes/00.m", &use_stack, instructions, num_instructions);
+	execution("./byteodes/00.m", &use_stack, instructions, num_instructions);
 
 	return 0;
 }
