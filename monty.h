@@ -1,6 +1,5 @@
 #ifndef MONTY_H
 #define MONTY_H
-#define STACK_MAX_SIZE 100
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -80,5 +79,4 @@ void addnode_ic(stack_t **head, int n);
 void addqueue_ic(stack_t **head, int n);
 void queue_ic(stack_t **head, unsigned int counter);
 void stack_ic(stack_t **head, unsigned int counter);
-char *read_line(FILE *file);
 #endif
