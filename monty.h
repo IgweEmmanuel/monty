@@ -8,6 +8,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #define MAX_LINE_LENGTH 1000
+#define BUFFER_SIZE 1024
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
